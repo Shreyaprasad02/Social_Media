@@ -1,0 +1,30 @@
+.infoForm>div {
+    display: flex;
+    gap: 1rem;
+    height: 3rem;
+}
+
+.infoButton {
+    align-self: center;
+    width: 100px;
+    height: 36px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+form input {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    background-color: var(--inputColor);
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    flex: 1;
+}
+
+form {
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: none;
+}
