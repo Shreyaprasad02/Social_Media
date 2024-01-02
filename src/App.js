@@ -7,6 +7,7 @@ import Chat from "./Pages/Chat/Chat";
 import { useSelector } from 'react-redux';
 import Profile from './Pages/Profile/Profile';
 import Job from "./Pages/Job/Job";
+import JobProfile from './Components/jobProfile'
 import Interview from "./Pages/Interview/Interview";
 
 
@@ -22,7 +23,7 @@ function App() {
          <Route path = '/auth' element = {user? <Navigate to = '../home'/> : <Auth/>}/>
          <Route path = '/profile/:id' element = {user? <Profile/>: <Navigate to = '../auth'/>}/>
          <Route path="/chat" element={user ? <Chat/> : <Navigate to="../auth" />}/>
-         <Route path="/job" element={user ? <Job/> : <Navigate to="../auth" />}/>
+         <Route path="/job" element={user ? <JobProfile/> : <Navigate to="../auth" />}/>
          <Route path="/interview" element={user ? <Interview/> : <Navigate to="../auth" />}/>
         </Routes>
       </div>       
