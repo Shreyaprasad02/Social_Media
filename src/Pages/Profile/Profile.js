@@ -3,7 +3,7 @@ import './Profile.css'
 import InfoCard from '../../Components/InfoCard/InfoCard'
 import ProfileCard from '../../Components/ProfileCard/ProfileCard'
 import PostSide from '../../Components/PostSide/PostSide'
-import FollowersCard from '../../Components/FollowersCard/FollowersCard'
+import FollowersCard from '../../Components/FollowersCard/Followerscard'
 
 const Profile = () => {
   return (

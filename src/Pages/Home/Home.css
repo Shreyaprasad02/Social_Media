@@ -1,4 +1,5 @@
 .Home{
+    width: 100vw;
     position: relative;
     display: grid;
     grid-template-columns: 20rem 38rem 18rem;
