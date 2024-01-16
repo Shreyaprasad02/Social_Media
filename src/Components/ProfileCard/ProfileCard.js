@@ -8,7 +8,6 @@ import defaultProfile from '../../img/defaultProfile.png'
 const ProfileCard = ({location}) => {
   const {user} = useSelector((state)=> state.authReducer.authData)
   const posts = useSelector((state)=> state.postReducer.posts)
-  console.log(user);
   return (
     <div className='ProfileCard'>
       <div className="ProfileImages">
